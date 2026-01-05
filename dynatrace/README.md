@@ -22,3 +22,14 @@
 > com o objetivo de demonstrar atividades técnicas realizadas em ambiente corporativo,
 > respeitando confidencialidade e boas práticas de segurança da informação.
 
+## Análise Realizada
+
+Durante a análise do fluxo de login, foram observados aumentos de latência
+nos percentis P75 e P90, concentrados em requisições específicas marcadas
+como Key Requests.
+
+A investigação foi conduzida via Dynatrace APM, permitindo:
+- Drilldown por serviço
+- Identificação de endpoints ofensores
+- Correlação com volume de requisições
+- Apoio ao time de desenvolvimento na tomada de decisão
